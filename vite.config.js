@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      'crypto': 'crypto-browserify',  // Force Vite to use the browser version of crypto
+      'crypto': 'crypto-browserify',  
     },
   },
 })
